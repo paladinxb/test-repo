@@ -20,4 +20,4 @@ thread.start()
 time.sleep(600)
 stop_flag = True
 thread.join()
-print("Автоматическая синхронизация остановлена.")
+print("Автоматическая синхронизация остановлена")

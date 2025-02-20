@@ -9,5 +9,4 @@ git commit -m "auto commit"
 
 :: Отправляем изменения в удалённый репозиторий
 git push origin main
-
 pause

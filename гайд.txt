@@ -10,3 +10,19 @@ git pull origin main
 pause
 
 4. Проверка того, что изменения идут как надо
+
+5. Обратный скрипт 
+
+@echo off
+cd /d D:\Coding\work\test-repo
+
+:: Добавляем все изменения
+git add .
+
+:: Фиксируем изменения с сообщением
+git commit -m "auto commit"
+
+:: Отправляем изменения в удалённый репозиторий
+git push origin main
+
+pause
