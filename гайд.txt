@@ -1,0 +1,12 @@
+1. cd /d D:\Coding\work
+
+2. git clone https://github.com/paladinxb/test-repo.git test-repo
+
+3. Создать бат файл со следующим содержанием
+
+@echo off
+cd /d D:\Coding\work\test-repo
+git pull origin main
+pause
+
+4. Проверка того, что изменения идут как надо
